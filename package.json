@@ -1,0 +1,31 @@
+{
+  "name": "coldcrescent.github.io",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"beefy index.js:bundle.js --live",
+    "bundle":"browserify index.js -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coldcrescent/coldcrescent.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coldcrescent/coldcrescent.github.io/issues"
+  },
+  "homepage": "https://github.com/coldcrescent/coldcrescent.github.io",
+  "devDependencies": {
+    "grunt-cli": "~0.1.13",
+    "grunt": "~0.4.2",
+    "browserify": "~3.24.10",
+    "beefy": "~0.7.1"
+  },
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "backbone": "~1.1.0"
+  }
+}
